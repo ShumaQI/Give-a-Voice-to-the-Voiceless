@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', 'Bitter';
+}
+
+
+body {
+    background-color: #f2f2f2; 
+    color: #6B8E23; 
+    line-height: 1.8;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.content-container h2{
+    color: #f2f2f2;
+}
+
+.page-header {
+    background-color: #6B8E23;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.page-header h1 {
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.page-header p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+.content-container {
+    display: grid;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.articles {
+    background-color: #6B8E23;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-post {
+    flex: 1 1 45%; 
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.blog-post h3 {
+    font-size: 24px;
+    color: #6B8E23;
+}
+
+
+.infographics {
+    background-color: #6B8E23;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.infographics h2{
+    margin-bottom: 20px;
+}
+
+.infographic-grid p{
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.infographic-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infographic-box {
+    flex: 1 1 45%; 
+    text-align: center;
+}
+
+.infographic-box img {
+    top: 100%;
+    width: 200%;
+    height: 450px;
+
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.guides {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guides h2{
+    font-size: 25px;
+    color: #6B8E23;
+    font-family:'Bitter';}
+
+
+.guides ul {
+    list-style-type: disc;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+.guides li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Bitter';
+    align-items: center;
+
+}
+
+.page-footer {
+    background-color: #6B8E23;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-family: 'Bitter'
+}
+
+.page-footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.page-footer a:hover {
+    text-decoration: underline;
+}

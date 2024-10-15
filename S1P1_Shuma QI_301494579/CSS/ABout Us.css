@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-header {
+    text-align: center;
+    background-color: #6B8E23; 
+    padding: 50px 20px;
+    border-radius: 8px;
+}
+
+.about-header h1 {
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-family:'Playfair Display' ;
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F5EAD8;
+    color: #F5EAD8;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.mission-vision {
+    background-color: white;
+    color:#6B8E23;
+    padding: 80px;
+    border-radius: 8px;
+    margin: 20px auto;
+    margin-top: 50px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision h2 {
+    font-family: 'Bitter';
+    font-size: 36px;
+    color: #6B8E23; 
+}
+
+.mission-vision p{
+    font-size:20px ;
+    font-family: 'Bitter';
+}
+
+
+.team-composition {
+    padding: 50px;
+    color: #6B8E23;
+    font-family: 'Playfair Display';
+    background-color: #F5EAD8
+}
+
+.team-composition h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    margin-bottom: 30px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    color: #6B8E23;
+    font-family:'Bitter' ;
+    margin-bottom: 10px;
+
+}
+
+.team-member p {
+    font-size: 16px;
+    max-width: 600px;
+    font-family: 'Bitter';
+    padding-left: 15%;
+}
+
+footer {
+    font-family: 'Bitter';
+    background-color:#6B8E23;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+footer a {
+    color:#F5EAD8;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer form {
+    margin-top: 10px;
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+footer button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #6B8E23;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #A0522D; 
+}
+
